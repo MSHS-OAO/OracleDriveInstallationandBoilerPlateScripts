@@ -58,7 +58,7 @@ Now, Before downloading the instant client zip folders to your home directory, C
 
 Based on the above output, Download the zip files from following [link](https://www.oracle.com/database/technologies/instant-client/linux-x86-64-downloads.html)
 
-We need the following packckages from the link mentioned above:
+We need the following packages from the link mentioned above:
     
 | Package                  | Description                                                                                           |
 |:------------------------:|:-----------------------------------------------------------------------------------------------------:|
