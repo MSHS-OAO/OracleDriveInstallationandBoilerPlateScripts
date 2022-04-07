@@ -180,7 +180,7 @@ If the connection is successfully established, The output should be as shown bel
 To exit from the connection, Just type `exit()`
     
 > Checking the connection using unixodbc package:
-Use the following command to test the connection to OAO Database, `isql "OracleODBC-21_5" "<username>" "<database password provided to you>" -v'
+Use the following command to test the connection to OAO Database, `isql "OracleODBC-21_5" "<username>" "<database password provided to you>" -v`
 
 If the connection is successfully established, The output should be as shown below:
     
