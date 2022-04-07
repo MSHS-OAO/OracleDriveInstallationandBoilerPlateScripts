@@ -25,6 +25,8 @@ You can install Java on a machine running with Ubuntu following the steps:
 - Login as root user using command `sudo su` . This will trigger you to type the password and put the same passowrd you used to login to the server.
 - Update the packages using following command `apt-get update`
 - Check for the latest LTS version of Java using the following [link](https://www.oracle.com/java/technologies/downloads/)
+- For example, At the time of authoring this documentation, The latest LTS version of java is 17
+![Java LTS](/assets/JAVALTS.png)
 
 
 ## Downloading the necessary zip files from Oracle site
