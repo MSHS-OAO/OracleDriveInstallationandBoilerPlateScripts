@@ -8,12 +8,16 @@ This README should serv as documentation for installing the Oracle drivers on se
 
 If your README is long, add a table of contents to make it easy for users to find what they need.
 
-- [Java Installation](#java)
-- [Downloading the necessary zip files from Oracle site](#Downloading the necessary zip files from Oracle site)
-- [Credits](#credits)
-- [License](#license)
+- Java Installation
+- Downloading the necessary zip files from Oracle site
+- Extracting zip files to '/opt/orcle' directory
+- Filling the /network/admin folder
+- Creating and Populating the odbc.ini and odbcinst.ini
+- Exporting to the path
+- Checking the installation
+- Possible errors and solutions (Not extensive!!)
 
-## Java
+## Java Installation
 
 What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
 
@@ -26,6 +30,7 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
     ```md
     ![alt text](assets/images/screenshot.png)
     ```
+## Downloading the necessary zip files from Oracle site
 
 ## Credits
 
