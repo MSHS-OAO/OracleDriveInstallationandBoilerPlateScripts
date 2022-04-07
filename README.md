@@ -3,7 +3,7 @@
 # Description
 
 This README should serve as documentation for installing the Oracle drivers on servers running using Linux OS, Specifically Ubuntu distribution. 
-If you feel that the instructions aren't correct or found a better way to install drivers or instructions aren't intuitive, please contact ***Data Warehouse Working Group*** to discuss.
+If you feel that the instructions aren't correct or found a better way to install drivers or instructions aren't intuitive, please contact ***Data Warehouse Work Group*** to discuss.
 
 > Folder structure
 
@@ -28,7 +28,7 @@ If you feel that the instructions aren't correct or found a better way to instal
 - Possible errors and solutions (Not extensive!!)
 
 ### Note
-> Before proceeding into following steps, make sure you have root access on the system. If you don't, contact the ***Data Warehouse Working Group*** in order to get the root access.
+> Before proceeding into following steps, make sure you have root access on the system. If you don't, contact the ***Data Warehouse Work Group*** in order to get the root access.
 
 ## Java Installation
 You can install Java on a machine running with Ubuntu following the steps:
