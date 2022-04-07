@@ -54,13 +54,16 @@ Now, Before downloading the instant client zip folders to your home directory, C
 
 ![OS Output](/assets/OS.PNG)
 
-Based on the above output, Download the zip files from following [link](https://www.oracle.com/database/technologies/instant-client/linux-x86-64-downloads.html) 
+Based on the above output, Download the zip files from following [link](https://www.oracle.com/database/technologies/instant-client/linux-x86-64-downloads.html)
+
+We need the following packckages from the link mentioned above:
     
-| Package       | Name          |
-|:-------------:|:-------------:|
-| Basic Package (ZIP)      | right-aligned |
-| SQL*Plus Package (ZIP)   | centered      |
-| SDK Package (ZIP) | are neat      |   
+| Package                  | Description                                                                                           |
+|:------------------------:|:-----------------------------------------------------------------------------------------------------:|
+| Basic Package (ZIP)      | All files required to run OCI, OCCI, and JDBC-OCI applications                                        |
+| SQL*Plus Package (ZIP)   | The SQL*Plus command line tool for SQL and PL/SQL queries                                             |
+| SDK Package (ZIP)        | Additional header files and an example makefile for developing Oracle applications with Instant Client|   
+| ODBC Package (ZIP)       | Additional libraries for enabling ODBC applications                                                   |   
     
 ```
 wget https://download.oracle.com/otn_software/linux/instantclient/215000/instantclient-basic-linux.x64-21.5.0.0.0dbru.zip
