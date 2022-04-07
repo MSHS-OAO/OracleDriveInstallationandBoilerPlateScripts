@@ -11,7 +11,7 @@ If your README is long, add a table of contents to make it easy for users to fin
 - Java Installation
 - Downloading the necessary zip files from Oracle site
 - Extracting zip files to '/opt/oracle' directory
-- Populating the opt/oracle/instantclient_<V>_<V>/network/admin/ folder
+- Populating the opt/oracle/instantclient_21_5/network/admin/ folder
 - Creating and Populating the odbc.ini and odbcinst.ini
 - Exporting to the path
 - Checking the installation
