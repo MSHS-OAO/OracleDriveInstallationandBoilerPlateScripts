@@ -26,7 +26,6 @@ If you feel that the instructions aren't correct or found a better way to instal
 - Intstalling the unixodbc
 - Checking the installation
 - Possible errors and solutions (Not extensive!!)
-- 
 
 ### Note
 > Before proceeding into following steps, make sure you have root access on the system. If you don't, contact the system administrator(s) in order to get the root access.
