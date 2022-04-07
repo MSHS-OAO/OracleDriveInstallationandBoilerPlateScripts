@@ -102,6 +102,47 @@ If the `/network/admin/` folder doesn't exist, Create one using the following co
 
 ## Creating and Populating the odbc.ini and odbcinst.ini
 
+Create/Modify the `odbcinst.ini` file using the following command `nano /etc/odbcinst.ini`. Then add the following lines to end of the file:
+
+```    
+[Oracle 21_5 ODBC driver]
+Description     = Oracle ODBC driver for Oracle 21_5
+Driver          = /opt/oracle/instantclient_21_5/libsqora.so.21.1
+Setup           =
+FileUsage       =
+CPTimeout       =
+CPReuse         =
+```
+Note: 
+- The line [Oracle 21_5 ODBC driver] should be modified based on the exisiting drivers that are setup in your server
+- The third line in above lines code should be modified accoring the path and installed version of instant client downloaded
+
+Create/Modify the `odbc.ini` file using the following command `nano /etc/odbc.ini`. Then add the following lines to end of the file:
+
+```
+[OracleODBC-21_5]
+Application Attributes = T
+Attributes = W
+BatchAutocommitMode = IfAllSuccessful
+BindAsFLOAT = F
+CloseCursor = F
+DisableDPM = F
+DisableMTS = T
+Driver = Oracle 21_5 ODBC driver
+DSN = OracleODBC-12c
+EXECSchemaOpt =
+EXECSyntax = T
+Failover = T
+FailoverDelay = 10
+FailoverRetryCount = 10
+FetchBufferSize = 64000
+ForceWCHAR = F
+Lobs = T
+```
+Note: 
+- The line [OracleODBC-21_5] should be modified based on the exisiting drivers that are setup in your server
+- The driver name `Driver = Oracle 21_5 ODBC driver` should match as per what's specified in the `odbcinst.ini` file
+
 ## Exporting to the path
 > This is the critical step of the process, Make sure to do this!
 
