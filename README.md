@@ -14,6 +14,7 @@ If your README is long, add a table of contents to make it easy for users to fin
 - Populating the `/opt/oracle/instantclient_21_5/network/admin/` folder
 - Creating and Populating the odbc.ini and odbcinst.ini
 - Exporting to the path
+- Intstalling the unixodbc
 - Checking the installation
 - Possible errors and solutions (Not extensive!!)
 
@@ -39,7 +40,9 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 ## Creating and Populating the odbc.ini and odbcinst.ini
 
 ## Exporting to the path
-    
+
+## Intstalling the unixodbc
+
 ## Checking the installation
     
 ## Possible errors and solutions (Not extensive!!)
