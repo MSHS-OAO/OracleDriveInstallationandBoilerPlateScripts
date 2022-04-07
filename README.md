@@ -69,8 +69,8 @@ wget https://download.oracle.com/otn_software/linux/instantclient/215000/instant
 wget https://download.oracle.com/otn_software/linux/instantclient/215000/instantclient-odbc-linux.x64-21.5.0.0.0dbru.zip
 ```
 > Note:
-    -We can get the above links by copying the link against name of the package.
-    -Zipfiles are downloaded into your home directory. Now create a folder to unzip the files to `/opt/oracle/` using the following command `mkdir /opt/oracle`
+    - We can get the above links by copying the link against name of the package.
+    - Zipfiles are downloaded into your home directory. Now create a folder to unzip the files to `/opt/oracle/` using the following command `mkdir /opt/oracle`
 
 ## Extracting zip files to '/opt/oracle' directory
 
