@@ -3,7 +3,7 @@
 ## Description
 
 This README should serve as documentation for installing the Oracle drivers on servers running using Linux OS, Specifically Ubuntu distribution. 
-If you feel that the instructions aren't correct or found a better way to install drivers or instructions aren't intuitive, please contact `Data Warehouse Group` to discuss.
+If you feel that the instructions aren't correct or found a better way to install drivers or instructions aren't intuitive, please contact `Data Warehouse Working Group` to discuss.
 
 ## Table of Contents
 
