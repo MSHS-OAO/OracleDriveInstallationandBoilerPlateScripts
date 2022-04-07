@@ -105,7 +105,7 @@ If the `/network/admin/` folder doesn't exist, Create one using the following co
 ## Exporting to the path
 > This is the critical step of the process, Make sure to do this!
 
-In order the path, Follow the below instructions:
+In order to export the path, Follow the below instructions:
 - Open the `.bachrc` file using the command `nano ~/.bashrc`
 - Paste the following lines at the end of the file:
 
