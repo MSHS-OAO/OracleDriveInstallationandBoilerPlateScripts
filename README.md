@@ -48,7 +48,7 @@ In order to facilitate the ODBC connections we need `unixodbc`. You can install 
 
 ## Downloading the necessary zip files from Oracle site
 
-As of now, You should still be in your home directory. You can confirm this typing the commans `pwd`. If you aren't in the home directory you can navigate to home directory using the following command `cd /home/<username>/` replace <username> with your user name that you used for logging into the server.
+As of now, You should still be in your home directory. You can confirm this typing the command `pwd`. If you aren't in the home directory you can navigate to home directory using the following command `cd /home/<username>/` replace <username> with your user name that you used for logging into the server.
 
 Now, Before downloading the instant client zip folders to your home directory, Check the version of OS and architecture of the server using the following commands.
 - For checking the OS version use `lsb_release -a`
