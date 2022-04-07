@@ -65,7 +65,9 @@ We need the following packckages from the link mentioned above:
 | Basic Package (ZIP)      | All files required to run OCI, OCCI, and JDBC-OCI applications                                        |
 | SQL*Plus Package (ZIP)   | The SQL*Plus command line tool for SQL and PL/SQL queries                                             |
 | SDK Package (ZIP)        | Additional header files and an example makefile for developing Oracle applications with Instant Client|   
-| ODBC Package (ZIP)       | Additional libraries for enabling ODBC applications                                                   |   
+| ODBC Package (ZIP)       | Additional libraries for enabling ODBC applications                                                   | 
+    
+We can download the above mentioned zip files using the following commands:
     
 ```
 wget https://download.oracle.com/otn_software/linux/instantclient/215000/instantclient-basic-linux.x64-21.5.0.0.0dbru.zip
