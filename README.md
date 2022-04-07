@@ -17,9 +17,15 @@ If you feel that the instructions aren't correct or found a better way to instal
 - Checking the installation
 - Possible errors and solutions (Not extensive!!)
 
-## Java Installation
+### Note
+Before proceeding into following steps, Make sure you have root access on the system. If you don't contact the system administrator(s) in order to get the root access.
 
-You can install Java on a machine running with Ubuntu following the steps outlined in the official ubuntu [webpage](https://ubuntu.com/tutorials/install-jre#2-installing-openjdk-jre)
+## Java Installation
+You can install Java on a machine running with Ubuntu following the steps:
+- Login as root user using command `sudo su` . This will trigger you to type the password and put the same passowrd you used to login to the server.
+- Update the packages using following command `apt-get update`
+- Check for the latest LTS version of Java using the following [link](https://www.oracle.com/java/technologies/downloads/)
+
 
 ## Downloading the necessary zip files from Oracle site
 
