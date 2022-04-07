@@ -34,20 +34,15 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 
 ## Filling the /network/admin folder
 
-List your collaborators, if any, with links to their GitHub profiles.
+## Populating the opt/oracle/instantclient_<V>_<V>/network/admin/ folder
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
+## Creating and Populating the odbc.ini and odbcinst.ini
 
-If you followed tutorials, include links to those here as well.
-
-## reating and Populating the odbc.ini and odbcinst.ini
-
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
-
----
-
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-## Badges
+## Exporting to the path
+    
+## Checking the installation
+    
+## Possible errors and solutions (Not extensive!!)
+   
 
 
