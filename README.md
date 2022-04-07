@@ -83,10 +83,10 @@ wget https://download.oracle.com/otn_software/linux/instantclient/215000/instant
 - Navigate to `/opt/oracle` folder using the following command `cd /opt/oracle`
 - Now, Extract all the four zip files you downlaoded using the following set of commands
 ```
-unzip /home/tommad01/instantclient-odbc-linux.x64-21.5.0.0.0dbru.zip 
-unzip /home/tommad01/instantclient-basic-linux.x64-21.5.0.0.0dbru.zip 
-unzip /home/tommad01/instantclient-sdk-linux.x64-21.5.0.0.0dbru.zip 
-unzip /home/tommad01/instantclient-sqlplus-linux.x64-21.5.0.0.0dbru.zip 
+unzip /home/<username>/instantclient-odbc-linux.x64-21.5.0.0.0dbru.zip 
+unzip /home/<username>/instantclient-basic-linux.x64-21.5.0.0.0dbru.zip 
+unzip /home/<username>/instantclient-sdk-linux.x64-21.5.0.0.0dbru.zip 
+unzip /home/<username>/instantclient-sqlplus-linux.x64-21.5.0.0.0dbru.zip 
 ```
 
 ## Populating the opt/oracle/instantclient_21_5/network/admin/
