@@ -56,7 +56,7 @@ Now, Before downloading the instant client zip folders to your home directory, C
 
 Based on the above output, Download the zip files from following [link](https://www.oracle.com/database/technologies/instant-client/linux-x86-64-downloads.html) 
     
-    | Package        | Are           | Cool  |
+| Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
