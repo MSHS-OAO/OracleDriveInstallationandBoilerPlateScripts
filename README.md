@@ -46,9 +46,16 @@ You can install Java on a machine running with Ubuntu following the steps:
 
 ## Downloading the necessary zip files from Oracle site
 
-Provide instructions and examples for use. Include screenshots as needed.
+As of now, You should still be in your home directory. You can confirm this typing the commans `pwd`. If you aren't in the home directory you can navigate to home directory using the following command `cd /home/<username>/` replace <username> with your user name that you used for logging into the server.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+Now, Before downloading the instant client zip folders to your home directory, Check the version of OS and architecture of the server using the following commands.
+- For checking the OS version use `lsb_release -a`
+- For checking the server architecture use `uname -m`
+
+![OS Output](/assets/OS.PNG)
+
+Based on the above output, Download the zip files from following [link](https://www.oracle.com/database/technologies/instant-client/downloads.html) 
+    
 
     ```md
     ![alt text](assets/images/screenshot.png)
