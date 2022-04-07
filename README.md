@@ -2,16 +2,16 @@
 
 ## Description
 
-This README should serv as documentation for installing the Oracle drivers on servers running using Linux OS, Specifically Ubuntu disro
+This README should serve as documentation for installing the Oracle drivers on servers running using Linux OS, Specifically Ubuntu disro
 
-## Table of Contents (Optional)
+## Table of Contents
 
 If your README is long, add a table of contents to make it easy for users to find what they need.
 
 - Java Installation
 - Downloading the necessary zip files from Oracle site
-- Extracting zip files to '/opt/orcle' directory
-- Filling the /network/admin folder
+- Extracting zip files to '/opt/oracle' directory
+- Populating the opt/oracle/instantclient_<V>_<V>/network/admin/ folder
 - Creating and Populating the odbc.ini and odbcinst.ini
 - Exporting to the path
 - Checking the installation
@@ -30,9 +30,9 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
     ```md
     ![alt text](assets/images/screenshot.png)
     ```
-## Downloading the necessary zip files from Oracle site
+## Extracting zip files to '/opt/oracle' directory
 
-## Credits
+## Filling the /network/admin folder
 
 List your collaborators, if any, with links to their GitHub profiles.
 
@@ -40,7 +40,7 @@ If you used any third-party assets that require attribution, list the creators w
 
 If you followed tutorials, include links to those here as well.
 
-## License
+## reating and Populating the odbc.ini and odbcinst.ini
 
 The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
 
@@ -50,18 +50,4 @@ The last section of a high-quality README file is the license. This lets other d
 
 ## Badges
 
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
 
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
-## Features
-
-If your project has a lot of features, list them here.
-
-## How to Contribute
-
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
