@@ -34,7 +34,7 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 
 ## Filling the /network/admin folder
 
-## Populating the opt/oracle/instantclient_<V>_<V>/network/admin/ folder
+## Populating the opt/oracle/instantclient_21_5/network/admin/
 
 ## Creating and Populating the odbc.ini and odbcinst.ini
 
