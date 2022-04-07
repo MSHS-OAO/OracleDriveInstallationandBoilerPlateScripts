@@ -80,6 +80,7 @@ wget https://download.oracle.com/otn_software/linux/instantclient/215000/instant
 - Zipfiles are downloaded into your home directory. Now create a folder to unzip the files to `/opt/oracle/` using the following command `mkdir /opt/oracle`
 
 ## Extracting zip files to '/opt/oracle' directory
+    Na
 
 ## Populating the opt/oracle/instantclient_21_5/network/admin/
 
