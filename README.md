@@ -18,12 +18,12 @@ If you feel that the instructions aren't correct or found a better way to instal
 # Table of Contents
 
 - Java Installation
+- Intstalling the unixodbc
 - Downloading the necessary zip files from Oracle site
 - Extracting zip files to `/opt/oracle` directory
 - Populating the `/opt/oracle/instantclient_21_5/network/admin/` folder
 - Creating and Populating the odbc.ini and odbcinst.ini
 - Exporting to the path
-- Intstalling the unixodbc
 - Checking the installation
 - Possible errors and solutions (Not extensive!!)
 
@@ -43,6 +43,8 @@ You can install Java on a machine running with Ubuntu following the steps:
 
 ![Java Output](/assets/JAVAVERSION.PNG)
 
+## Intstalling the unixodbc
+In order to facilitate the ODBC connections we need `unixodbc`. You can install unixodbc using the following command `apt-get install unixodbc`
 
 ## Downloading the necessary zip files from Oracle site
 
@@ -82,8 +84,6 @@ wget https://download.oracle.com/otn_software/linux/instantclient/215000/instant
 ## Creating and Populating the odbc.ini and odbcinst.ini
 
 ## Exporting to the path
-
-## Intstalling the unixodbc
 
 ## Checking the installation
     
