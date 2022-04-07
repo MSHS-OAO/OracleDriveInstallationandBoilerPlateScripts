@@ -115,7 +115,7 @@ CPReuse         =
 ```
 Note: 
 - The line [Oracle 21_5 ODBC driver] should be modified based on the exisiting drivers that are setup in your server
-- The third line in above lines code should be modified accoring the path and version of instant client downloaded
+- The third line in above lines code should be modified according the path and version of instant client downloaded
 
 Create/Modify the `odbc.ini` file using the following command `nano /etc/odbc.ini`. Then add the following lines to end of the file:
 
