@@ -162,9 +162,11 @@ In order to export the path, Follow the below instructions:
  - Then `CTRL+X` to exit
     
 ## Checking the installation
-> Checking if all the dependencies are correctly mapped. Use the following command `ldd /opt/oracle/instantclient_21_5/libsqora.so.21.1`. If the path is coorectly setup, Then the output should be similat to as shown below:
+> Checking if all the dependencies are correctly mapped. Use the following command `ldd /opt/oracle/instantclient_21_5/libsqora.so.21.1`. If the path is coorectly setup, Then the output should be similar to as shown below:
 
 ![LDD Output](/assets/LDD.PNG)
+    
+Note that in the image, All the paths are showing up. If the paths aren't correctly mapped in the previous step, You'll find string like `Not Found` against the file name on RHS of image shown above.
 
 
     
