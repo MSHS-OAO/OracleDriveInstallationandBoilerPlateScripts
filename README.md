@@ -7,13 +7,13 @@ If you feel that the instructions aren't correct or found a better way to instal
 
 > Folder structure
 
-`
+```
     .
     ├── assets                  # Contains all the images used in markdown file
     ├── boilerplate.R           # Code for connecting to database while using workbench
     ├── boilerplate.Rmd         # Code for connecting to database while using RConnect
     └── README.md               # Documentation
-`
+```
 
 # Table of Contents
 
