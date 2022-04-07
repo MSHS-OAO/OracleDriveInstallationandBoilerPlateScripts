@@ -7,15 +7,13 @@ If you feel that the instructions aren't correct or found a better way to instal
 
 > Folder structure
 
+`
     .
-    ├── build                   # Compiled files (alternatively `dist`)
-    ├── docs                    # Documentation files (alternatively `doc`)
-    ├── src                     # Source files (alternatively `lib` or `app`)
-    ├── test                    # Automated tests (alternatively `spec` or `tests`)
-    ├── tools                   # Tools and utilities
-    ├── LICENSE
-    └── README.md
-    |__
+    ├── assets                  # Contains all the images used in markdown file
+    ├── boilerplate.R           # Code for connecting to database while using workbench
+    ├── boilerplate.Rmd         # Code for connecting to database while using RConnect
+    └── README.md               # Documentation
+`
 
 # Table of Contents
 
