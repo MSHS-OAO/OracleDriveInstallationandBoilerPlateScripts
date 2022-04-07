@@ -56,11 +56,11 @@ Now, Before downloading the instant client zip folders to your home directory, C
 
 Based on the above output, Download the zip files from following [link](https://www.oracle.com/database/technologies/instant-client/linux-x86-64-downloads.html) 
     
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| Package       | Name          |
+|:-------------:|:-------------:|
+| Basic Package (ZIP)      | right-aligned |
+| SQL*Plus Package (ZIP)   | centered      |
+| SDK Package (ZIP) | are neat      |   
     
 ```
 wget https://download.oracle.com/otn_software/linux/instantclient/215000/instantclient-basic-linux.x64-21.5.0.0.0dbru.zip
