@@ -88,8 +88,17 @@ unzip /home/<username>/instantclient-basic-linux.x64-21.5.0.0.0dbru.zip
 unzip /home/<username>/instantclient-sdk-linux.x64-21.5.0.0.0dbru.zip 
 unzip /home/<username>/instantclient-sqlplus-linux.x64-21.5.0.0.0dbru.zip 
 ```
-
+Note:
+- Replace <username> with your "username"
+- The unzip command extracts the files into folder with name `instantclient_21_5` withib `/opt/oracle`. Depending on which version you installed, The name of folder `instantclient_21_5` might be different for you so do not panic!
+    
 ## Populating the opt/oracle/instantclient_21_5/network/admin/
+
+Once all the four files are unzipped you have to copy the contents of cloud wallet to `/opt/oracle/instantclient_21_5/network/admin/`. At the time when credentials are first mailed to you, You would have been provided with instructions to find the zipfile in the shared drive. If you have trouble finding the cloud wallet zip file contact ***Data Warehouse Working Group***. We are not posting here for security reasons.
+    
+Now, Navigate to /network/admin folder using the follwoing command `cd /opt/oracle/instantclient_21_5/network/admin/` and copy the contents of cloud wallet to this folder.
+
+If the `/network/admin/` folder doesn't exist, Create one using the following command `mkdir /opt/oracle/instantclient_21_5/network/admin/`!
 
 ## Creating and Populating the odbc.ini and odbcinst.ini
 
