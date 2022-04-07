@@ -162,12 +162,32 @@ In order to export the path, Follow the below instructions:
  - Then `CTRL+X` to exit
     
 ## Checking the installation
-> Checking if all the dependencies are correctly mapped. Use the following command `ldd /opt/oracle/instantclient_21_5/libsqora.so.21.1`. If the path is coorectly setup, Then the output should be similat to as shown below:
+> Checking if all the dependencies are correctly mapped. Use the following command `ldd /opt/oracle/instantclient_21_5/libsqora.so.21.1`. If the path is coorectly setup, Then the output should be similar to as shown below:
 
 ![LDD Output](/assets/LDD.PNG)
-
-
     
+Note that in the image, All the paths are showing up. If the paths aren't correctly mapped in the previous step, You'll find string like `Not Found` against the file name on RHS of image shown above.
+
+> Checking the connection using sqlplus package:
+Use the following command to test the connection to OAO Database, `sqlplus '<username>/<database password provided to you>@<connection string specified in tsnames.ora file in zip file provided to you.>'`
+
+Note: Just copy the sring after first equal to symbol in tsnames.ora file
+
+If the connection is successfully established, The output should be as shown below:
+    
+![SQLPLUS Output](/assets/SQLPLUS.PNG)
+
+To exit from the connection, Just type `exit()`
+    
+> Checking the connection using unixodbc package:
+Use the following command to test the connection to OAO Database, `isql "OracleODBC-21_5" "<username>" "<database password provided to you>" -v'
+
+If the connection is successfully established, The output should be as shown below:
+    
+![SQLPLUS Output](/assets/ISQL.PNG)
+
+To exit from the connection, Just type `quit`
+
 ## Possible errors and solutions (Not extensive!!)
    
 
