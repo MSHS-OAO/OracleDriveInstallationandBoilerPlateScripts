@@ -54,7 +54,13 @@ Now, Before downloading the instant client zip folders to your home directory, C
 
 ![OS Output](/assets/OS.PNG)
 
-Based on the above output, Download the zip files from following [link](https://www.oracle.com/database/technologies/instant-client/downloads.html) 
+Based on the above output, Download the zip files from following [link](https://www.oracle.com/database/technologies/instant-client/linux-x86-64-downloads.html) 
+    
+    | Package        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
     
 ```
 wget https://download.oracle.com/otn_software/linux/instantclient/215000/instantclient-basic-linux.x64-21.5.0.0.0dbru.zip
@@ -62,7 +68,9 @@ wget https://download.oracle.com/otn_software/linux/instantclient/215000/instant
 wget https://download.oracle.com/otn_software/linux/instantclient/215000/instantclient-sdk-linux.x64-21.5.0.0.0dbru.zip
 wget https://download.oracle.com/otn_software/linux/instantclient/215000/instantclient-odbc-linux.x64-21.5.0.0.0dbru.zip
 ```
-> Note that the zipfiles are downloaded into your home directory. Now create a folder to unzip the files to `/opt/oracle/` using the following command `mkdir /opt/oracle`
+> Note:
+    -We can get the above links by copying the link against name of the package.
+    -Zipfiles are downloaded into your home directory. Now create a folder to unzip the files to `/opt/oracle/` using the following command `mkdir /opt/oracle`
 
 ## Extracting zip files to '/opt/oracle' directory
 
