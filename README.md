@@ -144,7 +144,7 @@ Note:
 - The driver name `Driver = Oracle 21_5 ODBC driver` should match as per what's specified in the `odbcinst.ini` file
 
 ## Exporting to the path
-> This is the critical step of the process, Make sure to do this!
+> This is the critical step of the process!!
 
 In order to export the path, Follow the below instructions:
 - Open the `.bachrc` file using the command `nano ~/.bashrc`
