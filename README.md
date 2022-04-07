@@ -19,7 +19,7 @@ If you feel that the instructions aren't correct or found a better way to instal
 
 ## Java Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+You can install Java on a machine running with Ubuntu following the steps outlined in the official ubuntu [webpage](https://ubuntu.com/tutorials/install-jre#2-installing-openjdk-jre)
 
 ## Downloading the necessary zip files from Oracle site
 
