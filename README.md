@@ -117,6 +117,9 @@ In order to export the path, Follow the below instructions:
     export LD_LIBRARY_PATH
     export PATH
     ```
+ - To save the file hit `CTRL+O`, Press Y
+ - Then `CTRL+X` to exit
+    
 ## Checking the installation
     
 ## Possible errors and solutions (Not extensive!!)
