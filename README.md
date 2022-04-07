@@ -103,7 +103,20 @@ If the `/network/admin/` folder doesn't exist, Create one using the following co
 ## Creating and Populating the odbc.ini and odbcinst.ini
 
 ## Exporting to the path
+> This is the critical step of the process, Make sure to do this!
 
+In order the path, Follow the below instructions:
+- Open the `.bachrc` file using the command `nano ~/.bashrc`
+- Paste the following lines at the end of the file:
+
+    ```
+    ORACLE_HOME=/opt/oracle/instantclient_21_5/
+    PATH=$ORACLE_HOME:$PATH
+    LD_LIBRARY_PATH=$ORACLE_HOME
+    export ORACLE_HOME
+    export LD_LIBRARY_PATH
+    export PATH
+    ```
 ## Checking the installation
     
 ## Possible errors and solutions (Not extensive!!)
