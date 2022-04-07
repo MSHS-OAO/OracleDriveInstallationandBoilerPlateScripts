@@ -8,16 +8,16 @@ This README should serv as documentation for installing the Oracle drivers on se
 
 If your README is long, add a table of contents to make it easy for users to find what they need.
 
-- [Java Installation](#installation)
-- [Usage](#usage)
+- [Java Installation](#Java Installation)
+- [Downloading the necessary zip files from Oracle site](#Downloading the necessary zip files from Oracle site)
 - [Credits](#credits)
 - [License](#license)
 
-## Installation
+## Java Installation
 
 What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
 
-## Usage
+## Downloading the necessary zip files from Oracle site
 
 Provide instructions and examples for use. Include screenshots as needed.
 
