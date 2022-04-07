@@ -28,7 +28,7 @@ If you feel that the instructions aren't correct or found a better way to instal
 - Possible errors and solutions (Not extensive!!)
 
 ### Note
-> Before proceeding into following steps, make sure you have root access on the system. If you don't, contact the system administrator(s) in order to get the root access.
+> Before proceeding into following steps, make sure you have root access on the system. If you don't, contact the ***Data Warehouse Working Group*** in order to get the root access.
 
 ## Java Installation
 You can install Java on a machine running with Ubuntu following the steps:
