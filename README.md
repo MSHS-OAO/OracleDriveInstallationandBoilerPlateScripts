@@ -160,7 +160,7 @@ In order to export the path, Follow the below instructions:
     ```
  - To save the file hit `CTRL+O`, Press Y
  - Then `CTRL+X` to exit
- - Lastly, `export=/opt/oracle/instantclient_21_5/network/admin/`
+ - Lastly, `export TNS_ADMIN=/opt/oracle/instantclient_21_5/network/admin/`
     
 ## Checking the installation
 > Checking if all the dependencies are correctly mapped. Use the following command `ldd /opt/oracle/instantclient_21_5/libsqora.so.21.1`. If the path is coorectly setup, Then the output should be similar to as shown below:
