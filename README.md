@@ -90,7 +90,7 @@ unzip /home/<username>/instantclient-sqlplus-linux.x64-21.5.0.0.0dbru.zip
 ```
 Note:
 - Replace <username> with your "username"
-- The unzip command extracts the files into folder with name `instantclient_21_5` withib `/opt/oracle`. Depending on which version you installed, The name of folder `instantclient_21_5` might be different for you so do not panic!
+- The unzip command extracts the files into folder with name `instantclient_21_5` within `/opt/oracle`. Depending on which version you installed, The name of folder `instantclient_21_5` might be different for you so do not panic!
     
 ## Populating the opt/oracle/instantclient_21_5/network/admin/
 
@@ -160,6 +160,7 @@ In order to export the path, Follow the below instructions:
     ```
  - To save the file hit `CTRL+O`, Press Y
  - Then `CTRL+X` to exit
+ - Lastly, `export=/opt/oracle/instantclient_21_5/network/admin/`
     
 ## Checking the installation
 > Checking if all the dependencies are correctly mapped. Use the following command `ldd /opt/oracle/instantclient_21_5/libsqora.so.21.1`. If the path is coorectly setup, Then the output should be similar to as shown below:
