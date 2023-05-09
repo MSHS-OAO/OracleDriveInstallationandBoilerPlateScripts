@@ -140,6 +140,7 @@ ForceWCHAR = F
 Lobs = T
 UserID = <username>
 Password = <password>
+ServerName = <from tnsnames.ora>
 ```
 Note: 
 - The line [OracleODBC-21_5] should be modified based on the exisiting drivers that are setup in your server
