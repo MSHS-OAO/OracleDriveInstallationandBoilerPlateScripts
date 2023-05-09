@@ -33,7 +33,7 @@ If you feel that the instructions aren't correct or found a better way to instal
 ## Java Installation
 You can install Java on a machine running with Ubuntu following the steps:
 - Login as root user using command `sudo su` . This will trigger you to type the password and put the same passowrd you used to login to the server.
-- Update the packages using the following command `apt-get update`
+- Update the packages using the following command `apt-get update` amd `apt-get upgrade`
 - Check for the latest LTS version of Java using the following [link](https://www.oracle.com/java/technologies/downloads/)
 - For example, At the time of authoring this documentation, The latest LTS version of java is 17
 
@@ -120,7 +120,7 @@ Note:
 Create/Modify the `odbc.ini` file using the following command `nano /etc/odbc.ini`. Then add the following lines to end of the file:
 
 ```
-[OracleODBC-21_5]
+[OAO Cloud DB <yourname>]
 Application Attributes = T
 Attributes = W
 BatchAutocommitMode = IfAllSuccessful
@@ -138,6 +138,8 @@ FailoverRetryCount = 10
 FetchBufferSize = 64000
 ForceWCHAR = F
 Lobs = T
+UserID = <username>
+Password = <password>
 ```
 Note: 
 - The line [OracleODBC-21_5] should be modified based on the exisiting drivers that are setup in your server
