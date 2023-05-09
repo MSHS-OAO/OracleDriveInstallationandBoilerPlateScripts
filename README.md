@@ -38,7 +38,7 @@ You can install Java on a machine running with Ubuntu following the steps:
 - For example, At the time of authoring this documentation, The latest LTS version of java is 17
 
 ![Java LTS](/assets/JAVALTS.PNG)
-- Since 17 is latest LTS version, We'll use the following commands install `apt-get install openjdk-17-jdk ` and `apt-get install openjdk-17-jre`
+- Since 17 is latest LTS version, We'll use the following commands install `sudo apt install openjdk-17-jdk `
 - If the installation is successful, We can check the installtion using following command `java --version`. The output should be something similar to this:
 
 ![Java Output](/assets/JAVAVERSION.PNG)
