@@ -150,7 +150,7 @@ Note:
 > This is the critical step of the process!!
 
 In order to export the path, Follow the below instructions:
-- Open the `.bachrc` file using the command `nano ~/.bashrc`
+- Open the `global bash.bachrc` file using the command `nano /etc/bash.bashrc`
 - Paste the following lines at the end of the file:
 
     ```
